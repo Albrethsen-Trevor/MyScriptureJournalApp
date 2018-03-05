@@ -1,0 +1,43 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    font-family: monospace;
+}
+
+/*CSS for Scriptures.cshtml*/
+.grid {
+    margin: 4px;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+.grid th, .grid td {
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+}
+
+.head {
+    background-color: #E8E8E8;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.alt {
+    background-color: #E8E8E8;
+    color: #000;
+}
+
+/*CSS for AddScripture.cshtml*/
+.field-validation-error {
+    font-weight: bold;
+    color: red;
+    background-color: yellow;
+}
+
+.validation-summary-errors {
+    border: 2px dashed red;
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    margin: 12px;
+}
